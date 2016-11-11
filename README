@@ -5,6 +5,6 @@ To download a thread type
 
 php grab.php <thread_url>
 
-Example: php grab.php http://8ch.net/f1/res/57979.html
+Example: php grab.php http://8ch.net/politics/res/70227.html
 
 
