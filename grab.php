@@ -10,8 +10,12 @@ $base='https://media.8ch.net/'.$tag.'/src/';
 $urls=getContents($data,'<a href="https://media.8ch.net/'.$tag.'/src/','"');
 $subject=getContents($data,'<span class="subject">','</span>');
 $subject=$subject[0];
+if($subject=='')
+$subject=$board[5];
+$subject=str_replace('/','_',$subject);
 @mkdir($subject);
 
+var_dump($urls);
 foreach($urls as $a)
 {
 	echo "getting $a\n";
