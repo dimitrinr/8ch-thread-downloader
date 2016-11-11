@@ -1,0 +1,10 @@
+This is a very simple 8ch thread downloader.
+This script will create a folder for thread name and put all of files that were in that thread into that folder.
+
+To download a thread type
+
+php grab.php <thread_url>
+
+Example: php grab.php http://8ch.net/tech/res/589254.html
+
+
